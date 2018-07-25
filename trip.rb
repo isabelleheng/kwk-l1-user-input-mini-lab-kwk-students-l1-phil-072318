@@ -17,4 +17,4 @@ days = gets.chomp.to_i
 
 # Lastly, puts it all back by interpolating these values in a string.
 
-puts "Your vacation is at #{stay}, eating #{food} for #{days}. "
+puts "Your vacation is in #{stay}, eating #{food} for #{days}. "
