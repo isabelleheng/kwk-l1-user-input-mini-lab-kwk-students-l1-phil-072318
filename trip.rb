@@ -10,10 +10,10 @@ stay = gets.chomp.capitalize  #don't forget to Capitilize the input
 # Do the same thing with `eats` and one last time with `nights`, capturing their text input and storing them to the respective local variable
 
 puts "Where would you like to eat?"
-food = gets.chomp
+eats = gets.chomp
 
 puts "How long would you like to stay?"
-days = gets.chomp
+nights = gets.chomp
 
 # Lastly, puts it all back by interpolating these values in a string.
 
